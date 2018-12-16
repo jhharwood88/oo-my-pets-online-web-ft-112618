@@ -46,6 +46,7 @@ class Owner
  end
  
  def walk_dogs
+<<<<<<< HEAD
     @pets[:dogs].each {|dog| dog.mood = "happy"} 
  end
  
@@ -69,4 +70,9 @@ class Owner
  def list_pets
   "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
  end
+=======
+    @pets[:dogs][0].mood = "happy"
+ end
+ 
+>>>>>>> 44c209b6d82d9ce2ced38889bc21ca49d5dfa385
 end
